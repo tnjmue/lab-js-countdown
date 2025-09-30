@@ -53,9 +53,10 @@ function showToast(message) {
    }, 3000);
 
 
-
   // BONUS: ITERATION 4: TOAST CLOSE BUTTON
+   const closeButton = document.querySelector("#close-toast");
+   closeButton.addEventListener("click", () => toast.classList. remove("show"));
 
-  // Your code goes here ...
+  // ITERATION 5:
 
 }
